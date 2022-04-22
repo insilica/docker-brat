@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  brat:
+    build: '.'
+    ports:
+      - 8111:80
+    environment:
+      - BRAT_EMAIL=user@example.com
+      - BRAT_PASSWORD=pass
+      - BRAT_USERNAME=user

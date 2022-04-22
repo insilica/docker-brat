@@ -3,6 +3,15 @@ WARNING: This package is intended to install brat on a local secured machine. TH
 Do not place sensitive or medical data into brat while running it on public network. 
 This package is tested under mac and linux machines, and not tested on Windows machines. 
 
+# Quick Start: Annotations Demo
+
+1. Run: `docker-compose up`
+1. Visit http://localhost:8111/#/examples/BioNLP-ST_2011/BioNLP-ST_2011_EPI/PMID-11393792
+1. Log in (hover over top bar to drop down menu with Login button)
+  - Username: user
+  - Password: pass
+1. Test out [annotating](https://www.youtube.com/watch?v=hrVqKQAOH98)
+
 # Pre-requisite: Docker
 If Docker is not already installed on your machine, install it following this link:https://docs.docker.com/engine/install/
 
